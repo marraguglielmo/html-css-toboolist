@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'outfit', sans-serif;
+}
+
+header{
+    font-size: 3em;
+    font-weight: bolder;
+    line-height: 100px;
+    padding-left: 20px;
+}
+
+/* LOGO */
+header section img{
+    width: 70px;
+    vertical-align: middle;
+}
+
+main{
+    background-color: #F6F8F9;
+}
