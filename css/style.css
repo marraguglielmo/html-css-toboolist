@@ -5,14 +5,17 @@
 }
 
 body{
-    font-family: 'outfit', sans-serif;
+    background-color: #F6F8F9;
 }
 
+/* HEADER */
 header{
+    font-family: 'outfit', sans-serif;
     font-size: 3em;
     font-weight: bolder;
     line-height: 100px;
     padding-left: 20px;
+    background-color: white;
 }
 
 /* LOGO */
@@ -21,6 +24,65 @@ header section img{
     vertical-align: middle;
 }
 
+/* MAIN */
 main{
-    background-color: #F6F8F9;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CONTAINER */
+.container{
+    margin-top: 50px;
+}
+
+
+#container-button{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 300px 10px 50px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+/* BOTTONI */
+#button-task{
+    background-color: #73AAEA;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    width: 130px;
+    height: 40px;
+}
+
+#button-section{
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1PX solid #C6CACF;
+    color: #C6CACF;
+    font-size: 1.2em;
+    width: 130px;
+    height: 40px;
+    margin-left: 3px;
+}
+
+/* HOVER */
+#button-task:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: #C6CACF;
+    color: black;
+}
+
+#button-section:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: rgb(8, 117, 8);
+    color: black;
 }
