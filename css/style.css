@@ -6,11 +6,11 @@
 
 body{
     background-color: #F6F8F9;
+    font-family: 'outfit', sans-serif;
 }
 
 /* HEADER */
 header{
-    font-family: 'outfit', sans-serif;
     font-size: 3em;
     font-weight: bolder;
     line-height: 100px;
@@ -24,17 +24,13 @@ header section img{
     vertical-align: middle;
 }
 
-/* MAIN */
-main{
-    font-family: 'Poppins', sans-serif;
-}
 
 /* CONTAINER */
 .container{
     margin-top: 50px;
 }
 
-
+/* CONTAINER BOTTONI */
 #container-button{
     /* border: 2px solid red; */
     width: 70%;
@@ -85,4 +81,60 @@ main{
     opacity: 0.7;
     background-color: rgb(8, 117, 8);
     color: black;
+}
+
+
+/* CONTAINER BOTTONI */
+#container-list{
+    background-color: white;
+    /* border: 2px solid red; */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    padding: 0px 300px 10px 50px;
+}
+
+
+/* LISTA */
+ul{
+    list-style-type:none ;
+}
+
+ul li{
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+li{
+    line-height: 70px;
+}
+p{
+    line-height: 40px;
+    font-size: 1.2em;
+}
+
+/* CHECK */
+ul .check{
+    /* background-color: #86BEAC; */
+    color: #86BEAC;
+    padding: 1px;
+    border: 2px solid #86BEAC;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+/* CROSS */
+ul .cross{
+    /* background-color: #86BEAC; */
+    color: #CF6054;
+    padding: 1px;
+    border: 2px solid #CF6054;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.freccia{
+    font-size: 1.5em;
+    vertical-align: middle;
 }
